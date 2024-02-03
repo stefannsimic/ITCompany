@@ -1,0 +1,251 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 3, 2019, 12:19:01 PM
+    Author     : frontend
+*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato&display=swap');
+
+/*
+
+font-family: 'Anton', sans-serif;
+
+font-family: 'Lato', sans-serif;
+
+*/
+
+
+
+img{
+    max-width: 100%;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: 'Anton', sans-serif;
+    color: #6DD1FF;
+}
+
+p{
+    font-size: 18px;
+    line-height: 26px;
+}
+
+
+/* NAVIGATION */
+
+.header{
+    margin-bottom: 213px;
+}
+
+.navbar-brand{
+    max-width: 50%;
+}
+
+.navbar-toggler span{
+    width: 40px;
+    height: 3px;
+    margin-bottom: 5px;
+    display: block;
+    background-color: #1085EA;
+}
+
+.navbar-toggler span:last-of-type{
+    margin-bottom: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.46px;
+    color:#A8A8A8;
+    text-align: center;
+    border-top: 2px solid transparent;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover
+{
+     border-top: 2px solid #1085EA;
+}
+
+/*HOME section*/
+
+.home .carousel-item{
+    padding: 213px 0 181px;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.home article{
+    padding: 10px;
+    background: rgba(255,2555,255, 0.8);
+}
+
+
+.home .home-title{
+    font-size: 60px;
+}
+
+.home .slide-item-content a{
+    display: inline-block;
+    padding: 10px 24px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    background: linear-gradient(139.4deg, #1085EA 0%, #0E9FE2 100%);
+    color:#ffffff;
+    font-family: 'Anton', sans-serif; 
+    text-align: center;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 15px;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: flex-start;
+    padding-left: 0;
+    margin-right: 0%;
+    margin-left: 50%;
+    list-style: none;
+}
+
+.carousel-indicators li {
+    width: 11px;
+    height: 11px;  
+    margin-right: 19px;
+    margin-left: 0;
+    background-color: white;
+    border-radius: 50%;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    opacity: .5;
+    transition: opacity 0.6s ease;
+}
+
+/*ABOUT section*/
+
+.about{
+    padding: 80px 0 150px;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.about .about-content{
+    padding: 10px;
+    background: rgba(255,2555,255, 0.8);
+}
+
+/*SERVICES section*/
+
+.services article p{
+    font-size: 14px;
+}
+
+/*PORTFOLIO section*/
+
+
+
+.portfolio{
+    padding: 80px 0;
+}
+
+.portfolio .portfolio-item img{
+    display: block;
+    width: 100%;
+    transition:all 0.5s linear;
+}
+
+.portfolio .portfolio-item a{
+    display: inline-block;
+    padding: 10px 24px;
+    border-radius: 20px;
+    background: linear-gradient(139.4deg, #1085EA 0%, #0E9FE2 100%);
+    color:#ffffff;
+    font-family: 'Anton', sans-serif; 
+}
+
+.portfolio .portfolio-item{
+    overflow: hidden;
+}
+
+.portfolio .portfolio-item .btn{
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+}
+
+.portfolio .portfolio-item:hover .btn{
+    display: block;
+}
+
+.portfolio .portfolio-item:hover img{
+    transform: scale(1.2);
+}
+
+
+/*CONTACT sekcija*/
+
+.contact{
+    padding-top: 148px;
+    background: no-repeat center top;
+    background-size: cover;
+}
+
+
+.contact aside iframe{
+    width: 100%;
+    height: 314px;
+}
+
+.contact .contact-form .form-group{
+    margin-bottom: 25px;
+}
+
+.contact .contact-form .form-control{
+    border: 1px solid #FFFFFF;
+    line-height: 4.5rem;
+    color:#fff;
+    width:100%;
+    display: block;
+    padding: 0  10px;
+    background-color: transparent;
+}
+
+.contact .contact-data link-button{
+    width: 139px;
+    display: inline-block;
+    padding: 10px 24px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    background: linear-gradient(139.4deg, #1085EA 0%, #0E9FE2 100%);
+    color:#FFFFFF;
+    font-family: 'Anton', sans-serif; 
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
